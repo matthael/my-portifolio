@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 import { useState, useEffect } from "react";
 
-import Logo from "../../img/Logo.svg";
+import Logo from "../img/Logo.svg";
 
 import styles from "./NavBar.module.css";
 
@@ -29,7 +29,11 @@ export const NavigationBar = () => {
   };
 
   return (
-    <Navbar expand="lg" id={styles.navbar} className={scroll ? "scroll" : ""}>
+    <Navbar
+      expand="lg"
+      id={styles.navbar}
+      className={scroll ? `${styles.scroll}` : ""}
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img src={Logo} alt="Logo" />
