@@ -98,7 +98,7 @@ export const NavigationBar = () => {
               </li>
             </ul>
             <div className={styles.navbar_Btn}>
-              <button>
+              <button href="#connect">
                 <span> Let's Connect </span>
               </button>
             </div>
