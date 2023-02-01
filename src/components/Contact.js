@@ -38,12 +38,13 @@ export const Contact = () => {
 
     if (result.code === 200) {
       setStatus({ success: true, message: "Message sent successfuly" });
-    } else {
-      setStatus({
-        success: false,
-        message: "Something went wrong, please try again later",
-      });
     }
+    //else {
+    //   setStatus({
+    //     success: false,
+    //     message: "Something went wrong, please try again later",
+    //   });
+    // }
   };
 
   return (
