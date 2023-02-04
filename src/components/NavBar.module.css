@@ -137,3 +137,41 @@
   height: 100%;
   position: absolute;
 }
+
+@media (max-width: 768px) {
+  #navbar {
+    background-color: #121212;
+  }
+
+  #nav_items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #navbar img {
+    margin-bottom: 0.5em;
+  }
+
+  .nav_link_item,
+  .nav_link_item_active {
+    display: flex;
+    align-items: center;
+    margin: 0.3em 0.5rem;
+    position: relative;
+    left: -3em;
+  }
+
+  .social_icons {
+    display: flex;
+    margin: 1em 1.3em;
+    position: relative;
+    left: -5em;
+  }
+
+  .navbar_Btn button {
+    position: relative;
+    left: -3.5em;
+    margin-bottom: 0.5em;
+  }
+}
