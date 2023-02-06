@@ -36,15 +36,14 @@ export const Contact = () => {
     let result = response.json();
     setFormDetails(formInitialDetails);
 
-    if (result.code === 200) {
+    if (result.code === 400) {
+      setStatus({
+        success: false,
+        message: "Something went wrong, please try again later",
+      });
+    } else {
       setStatus({ success: true, message: "Message sent successfuly" });
     }
-    //else {
-    //   setStatus({
-    //     success: false,
-    //     message: "Something went wrong, please try again later",
-    //   });
-    // }
   };
 
   return (
