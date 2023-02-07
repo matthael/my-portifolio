@@ -55,6 +55,20 @@ export const Contact = () => {
           </Col>
           <Col md={6}>
             <h2> Get In Touch </h2>
+            {status.message && (
+              <Col>
+                <p
+                  className={
+                    status.success === false
+                      ? `${styles.danger}`
+                      : `${styles.success}`
+                  }
+                >
+                  {status.message}
+                </p>
+              </Col>
+            )}
+
             <form onSubmit={handleSubmit}>
               <Row>
                 <Col sm={6} className="px-1">
@@ -100,19 +114,6 @@ export const Contact = () => {
                     <span>{buttonText}</span>
                   </button>
                 </Col>
-                {status.message && (
-                  <Col>
-                    <p
-                      className={
-                        status.success === false
-                          ? `${styles.danger}`
-                          : `${styles.success}`
-                      }
-                    >
-                      {status.message}
-                    </p>
-                  </Col>
-                )}
               </Row>
             </form>
           </Col>

@@ -114,6 +114,8 @@ p.danger {
 }
 
 @media (max-width: 768px) {
+  p.success,
+  p.danger,
   .contact form input,
   .contact form textarea {
     width: 90%;

@@ -35,6 +35,7 @@ export const NavigationBar = () => {
     <Router>
       <Navbar
         expand="lg"
+        variant="dark"
         id={styles.navbar}
         className={scroll ? `${styles.scroll}` : ""}
       >
