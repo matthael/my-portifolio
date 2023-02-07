@@ -112,3 +112,21 @@ p.danger {
   background-color: #f8d7da;
   border-color: 1px solid #f5c6cb;
 }
+
+@media (max-width: 768px) {
+  .contact form input,
+  .contact form textarea {
+    width: 90%;
+    margin: 7px 20px;
+  }
+
+  .contact form button {
+    font-weight: 700;
+    margin: 25px 20px;
+  }
+
+  .contact h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+}

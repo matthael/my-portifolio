@@ -91,3 +91,9 @@
   right: 0;
   z-index: -4;
 }
+
+@media (max-width: 768px) {
+  .projects #nav_pills {
+    width: 85%;
+  }
+}

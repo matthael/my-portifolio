@@ -59,3 +59,10 @@
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+@media (max-width: 768px) {
+  .proj_imgbx {
+    width: 85%;
+    margin: 15px 30px;
+  }
+}

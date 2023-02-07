@@ -80,3 +80,25 @@
   border-radius: 19px;
   margin-right: 20px;
 }
+
+@media (max-width: 768px) {
+  .newsletter_bx {
+    padding: 65px 125px;
+  }
+
+  .newsletter_bx h3 {
+    text-align: center;
+    width: 10em;
+    margin-left: -45px;
+    margin-bottom: 10px;
+  }
+
+  .new_email_bx {
+    display: inline-block;
+    margin: 10px 0px 0px -60px;
+  }
+
+  .new_email_bx button {
+    margin: 20px 20px 0px 20px;
+  }
+}
