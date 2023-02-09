@@ -2,7 +2,7 @@
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .proj_imgbx img {
@@ -60,9 +60,28 @@
   letter-spacing: 0.8px;
 }
 
+.proj_btn {
+  display: inline-block;
+}
+
+.proj_btn svg {
+  position: relative;
+  top: 1.6em;
+  left: 1.65em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  z-index: 20;
+}
+
 @media (max-width: 768px) {
   .proj_imgbx {
     width: 85%;
     margin: 15px 30px;
+  }
+
+  .proj_btn svg {
+    position: relative;
+    left: 2.1em;
   }
 }

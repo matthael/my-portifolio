@@ -11,38 +11,50 @@ export const Projects = () => {
     {
       title: "Clio",
       description:
-        "Aplicação de pesquisa de Livros, construída para facilitar a pesquisa de livros e encontrar um local de compra.",
+        "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
+      UrlLive: "https://clio-books.vercel.app",
+      UrlRepository: "https://github.com/Biganao/clio",
     },
     {
       title: "Clio",
       description:
-        "Aplicação de pesquisa de Livros, construída para facilitar a pesquisa de livros e encontrar um local de compra.",
+        "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
+      UrlLive: "https://clio-books.vercel.app",
+      UrlRepository: "https://github.com/Biganao/clio",
     },
     {
       title: "Clio",
       description:
-        "Aplicação de pesquisa de Livros, construída para facilitar a pesquisa de livros e encontrar um local de compra.",
+        "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
+      UrlLive: "https://clio-books.vercel.app",
+      UrlRepository: "https://github.com/Biganao/clio",
     },
     {
       title: "Clio",
       description:
-        "Aplicação de pesquisa de Livros, construída para facilitar a pesquisa de livros e encontrar um local de compra.",
+        "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
+      UrlLive: "https://clio-books.vercel.app",
+      UrlRepository: "https://github.com/Biganao/clio",
     },
     {
       title: "Clio",
       description:
-        "Aplicação de pesquisa de Livros, construída para facilitar a pesquisa de livros e encontrar um local de compra.",
+        "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
+      UrlLive: "https://clio-books.vercel.app",
+      UrlRepository: "https://github.com/Biganao/clio",
     },
     {
       title: "Clio",
       description:
-        "Aplicação de pesquisa de Livros, construída para facilitar a pesquisa de livros e encontrar um local de compra.",
+        "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
+      UrlLive: "https://clio-books.vercel.app",
+      UrlRepository: "https://github.com/Biganao/clio",
     },
   ];
 
@@ -84,15 +96,22 @@ export const Projects = () => {
                 <Tab.Pane eventKey="first">
                   <Row>
                     {projects.map((projects, index) => {
-                      return <ProjectCard key={index} {...projects} />;
+                      return (
+                        <ProjectCard
+                          key={index}
+                          {...projects}
+                          UrlLive={projects.UrlLive}
+                          UrlRepository={projects.UrlRepository}
+                        />
+                      );
                     })}
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <p>Lorem Ipsum</p>
+                  <p> Comming soon more projects </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <p>Lorem Ipsum</p>
+                  <p> Comming soon more projects </p>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
