@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import contactImg from "../img/contactImg.svg";
+import contactImg from "../../img/contactImg.svg";
 
 import styles from "./Contact.module.css";
 

@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-import { MailChimpForm } from "./MailChimpForm";
+import { MailChimpForm } from "../newsletter/MailChimpForm";
 
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Logo from "../img/Logo.svg";
+import Logo from "../../img/Logo.svg";
 
 import styles from "./Footer.module.css";
 

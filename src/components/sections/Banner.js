@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { BsArrowRightCircle } from "react-icons/bs";
 
-import BannerAstronaut from "../img/BannerAstronaut.svg";
+import BannerAstronaut from "../../img/BannerAstronaut.svg";
 import styles from "./Banner.module.css";
 
 import { HashLink } from "react-router-hash-link";

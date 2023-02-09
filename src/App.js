@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { NavigationBar } from "./components/Navbar";
-import { Banner } from "./components/Banner";
-import { Projects } from "./components/Projects";
-import { Skills } from "./components/Skills";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
+import { NavigationBar } from "./components/layout/Navbar";
+import { Banner } from "./components/sections/Banner";
+import { Projects } from "./components/sections/Projects";
+import { Skills } from "./components/sections/Skills";
+import { Contact } from "./components/sections/Contact";
+import { Footer } from "./components/layout/Footer";
 
 function App() {
   return (

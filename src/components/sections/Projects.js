@@ -1,8 +1,8 @@
 import { Col, Container, Row, Nav, Tab } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "../layout/ProjectCard";
 
-import colorSharp2 from "../img/color-sharp2.png";
-import Clio from "../img/Clio.png";
+import colorSharp2 from "../../img/color-sharp2.png";
+import Clio from "../../img/Clio.png";
 
 import styles from "./Projects.module.css";
 
