@@ -39,9 +39,8 @@ export const Skills = () => {
             <div className={styles.skill_bx}>
               <h2> Skills </h2>
               <p>
-                lorem ipsum dolor sit amet consectetur adipiscing elit lorem
-                ipsum dolor sit amet consectetur adipiscing elit lorem ipsum
-                dolor sit amet consectetur adipiscing elit
+                These graphics show an approximation of my knowledge and
+                technical skills in each of the following technologies
               </p>
               <Carousel
                 responsive={responsive}

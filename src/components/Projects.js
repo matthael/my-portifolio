@@ -53,9 +53,9 @@ export const Projects = () => {
           <Col size={12}>
             <h2> Projects </h2>
             <p>
-              lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum
-              dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit
-              amet consectetur adipiscing elit
+              "Sometimes it's the people no one imagines anything of who do the
+              things that no one can imagine" <br />
+              <br /> ~ Alan Turing, father of modern computer science
             </p>
             <Tab.Container id="projects_tabs" defaultActiveKey="first">
               <Nav

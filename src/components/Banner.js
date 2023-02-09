@@ -86,11 +86,11 @@ export const Banner = () => {
                       </span>
                     </h1>
                     <p>
-                      lorem ipsum dolor sit amet consectetur adipiscing elit
-                      lorem ipsum dolor sit amet consectetur adipiscing elit
-                      lorem ipsum dolor sit amet consectetur adipiscing elit
-                      lorem ipsum dolor sit amet consectetur adipiscing elit
-                      lorem ipsum dolor sit amet consectetur adipiscing elit
+                      Do you want to have your own unthinkable app? I can help
+                      you with that! Contact me to make your dreams come true
+                      and have exponential profits while drinking some coffee.
+                      I'm a front-end developer and UI/UX designer from Brazil,
+                      you can call me Matheus.
                     </p>
                     <div className={styles.banner_Btn}>
                       <HashLink to="#connect" activeClassName={styles.selected}>
