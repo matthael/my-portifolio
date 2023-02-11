@@ -3,6 +3,11 @@ import { ProjectCard } from "../layout/ProjectCard";
 
 import colorSharp2 from "../../img/color-sharp2.png";
 import Clio from "../../img/Clio.png";
+import Vulcan from "../../img/Vulcan.png";
+import Apollon from "../../img/Apollon.png";
+import PioVeg from "../../img/PioVeg.png";
+import Calc from "../../img/Calc.png";
+import TTT from "../../img/TTT.png";
 
 import styles from "./Projects.module.css";
 
@@ -17,44 +22,42 @@ export const Projects = () => {
       UrlRepository: "https://github.com/Biganao/clio",
     },
     {
-      title: "Clio",
+      title: "Vulcan",
       description:
-        "Book search app built to make it easy to search for books and find a place to buy.",
-      imgUrl: Clio,
-      UrlLive: "https://clio-books.vercel.app",
-      UrlRepository: "https://github.com/Biganao/clio",
+        "Project management application to facilitate the creation and editing of projects.",
+      imgUrl: Vulcan,
+      UrlLive: "https://vulcan-projects.vercel.app",
+      UrlRepository: "https://github.com/Biganao/vulcan",
     },
     {
-      title: "Clio",
+      title: "Apollon",
       description:
-        "Book search app built to make it easy to search for books and find a place to buy.",
-      imgUrl: Clio,
-      UrlLive: "https://clio-books.vercel.app",
-      UrlRepository: "https://github.com/Biganao/clio",
+        "Music bot for discord updated on DiscordV14 with all commands in slash",
+      imgUrl: Apollon,
+      UrlLive:
+        "https://discord.com/api/oauth2/authorize?client_id=1054594314841358436&permissions=8&scope=bot%20applications.commands",
+      UrlRepository: "https://github.com/Biganao/MusicBot-Apollon",
     },
     {
-      title: "Clio",
-      description:
-        "Book search app built to make it easy to search for books and find a place to buy.",
-      imgUrl: Clio,
-      UrlLive: "https://clio-books.vercel.app",
-      UrlRepository: "https://github.com/Biganao/clio",
+      title: "PioVeg",
+      description: "Landing-page commissioned for the vegan restaurant PioVeg.",
+      imgUrl: PioVeg,
+      UrlLive: "https://pio-veg.vercel.app",
+      UrlRepository: "https://github.com/Biganao/PioVeg",
     },
     {
-      title: "Clio",
-      description:
-        "Book search app built to make it easy to search for books and find a place to buy.",
-      imgUrl: Clio,
-      UrlLive: "https://clio-books.vercel.app",
-      UrlRepository: "https://github.com/Biganao/clio",
+      title: "Recordum Calculatorius",
+      description: "Arithmetic mean calculator based on 3 grades.",
+      imgUrl: Calc,
+      UrlLive: "https://recordum-calculatorius.vercel.app",
+      UrlRepository: "https://github.com/Biganao/Calculadora-MA",
     },
     {
-      title: "Clio",
-      description:
-        "Book search app built to make it easy to search for books and find a place to buy.",
-      imgUrl: Clio,
-      UrlLive: "https://clio-books.vercel.app",
-      UrlRepository: "https://github.com/Biganao/clio",
+      title: "Tic-Tac-Theus",
+      description: "Player versus player Tic Tac Toe game.",
+      imgUrl: TTT,
+      UrlLive: "https://tictactheus.vercel.app",
+      UrlRepository: "https://github.com/Biganao/Tic-Tac-Theus",
     },
   ];
 
@@ -108,10 +111,34 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <p> Comming soon more projects </p>
+                  <p>
+                    Comming soon more projects, for more informations subscribe
+                    to our <span className={styles.link_txt}> newsletter</span>{" "}
+                    or follow me in
+                    <a
+                      href="https://github.com/Biganao"
+                      target="blank"
+                      className={styles.link_txt}
+                    >
+                      {"  "}
+                      GitHub
+                    </a>
+                  </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <p> Comming soon more projects </p>
+                  <p>
+                    Comming soon more projects, for more informations subscribe
+                    to our <span className={styles.link_txt}> newsletter</span>{" "}
+                    or follow me in
+                    <a
+                      href="https://github.com/Biganao"
+                      target="blank"
+                      className={styles.link_txt}
+                    >
+                      {"  "}
+                      GitHub
+                    </a>
+                  </p>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
