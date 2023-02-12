@@ -25,7 +25,7 @@ export const Newsletter = ({ onValidated, status, message }) => {
 
   return (
     <Col lg={12}>
-      <div className={styles.newsletter_bx}>
+      <div className={styles.newsletter_bx} id="newsletter">
         <Row>
           <Col lg={12} md={6} xl={5}>
             <h3> Subscribe to our Newsletter</h3>

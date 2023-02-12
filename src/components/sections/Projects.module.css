@@ -85,6 +85,17 @@
 
 .link_txt {
   color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  position: relative;
+  background-color: transparent;
+}
+
+.link_txt span {
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s;
