@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1> My Space </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+| [<img src="https://user-images.githubusercontent.com/103335886/218588017-f3cf1b23-e23b-4678-bd09-97f155297971.png" width=170><br><sub>@My Space</sub>](https://myspacefolio.vercel.app) |
+| :-------------------------------------------------------------------------------------------------------------------: |
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## Sobre 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="center">
+  <h3> "Seja bem-vindo ao meu universo de possibilidades" </h3><br>
+  <img src="https://user-images.githubusercontent.com/103335886/218589098-4fe2d505-fa31-4bf4-8b77-57e68c71ad48.png" width=750 height="380" />
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 
 
-### `npm test`
+Vc deseja ter o seu proprio app? Deseja ter lucros maiores e maior visibilidade? Eu posso ajudar com isso! contate-me para fazer de seus sonhos reais 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Muito prazer sou um desenvolvedor Front-end e UI/UX designer do Brasil. Você pode me chamar de Matheus e seja muito bem vindo ao <a href="https://myspacefolio.vercel.app"> My Space</a>.
 
-### `npm run build`
+O My Space e o meu portifolio pessoal onde deixo exposto os meus projetos com seus devidos links assim para a facil compreensão do oque e cada projeto, tambem no My Space vc pode me contatar via email ou se inscrever na minha newsletter para receber atualização de meus projetos futuros.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologias usadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ * React
+ * Node
+ * Animate.css
+ * Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Coma rodar Localmente ?
 
-### `npm run eject`
+### Dependências globais
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Você precisa ter instalado as dependencias:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js LTS v16 (ou qualquer versão superior)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Comandos locais
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Não se esqueça de instalar as dependências locais do projeto:
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para rodar o projeto localmente, basta rodar os comandos abaixo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+Lembre-se tambem de usar o comando a seguir para ativar o json-server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run dev
+```
 
-### Analyzing the Bundle Size
+#### Atenção!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Não esqueça de seguir as instruições do `.env.example`, assim adcionando suas informações do mailchimp e email.
 
-### Making a Progressive Web App
+# Autor
+<div align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| [<img src="https://github.com/Biganao.png?size=115" width=115><br><sub>@Biganao</sub>](https://github.com/Biganao) |
+| :-------------------------------------------------------------------------------------------------------------------: |
 
-### Advanced Configuration
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Licença
+[MIT](./LICENSE)
