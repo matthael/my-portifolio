@@ -20,7 +20,7 @@ Vc deseja ter o seu proprio app? Deseja ter lucros maiores e maior visibilidade?
 
 Muito prazer sou um desenvolvedor Front-end e UI/UX designer do Brasil. Você pode me chamar de Matheus e seja muito bem vindo ao <a href="https://myspacefolio.vercel.app"> My Space</a>.
 
-O My Space e o meu portifolio pessoal onde deixo exposto os meus projetos com seus devidos links assim para a facil compreensão do oque e cada projeto, tambem no My Space vc pode me contatar via email ou se inscrever na minha newsletter para receber atualização de meus projetos futuros.  
+O My Space e o meu portifolio pessoal onde deixo exposto os meus projetos com seus devidos links assim para a facil compreensão do oque e cada projeto, tambem no My Space você pode me contatar via email ou se inscrever na minha newsletter para receber atualização de meus projetos futuros.  
 
 ## Technologias usadas
 
