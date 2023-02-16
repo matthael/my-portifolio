@@ -16,7 +16,7 @@
 
 ## 
 
-Vc deseja ter o seu proprio app? Deseja ter lucros maiores e maior visibilidade? Eu posso ajudar com isso! contate-me para fazer de seus sonhos reais 
+Vc deseja ter o seu proprio app? Deseja ter lucros maiores e maior visibilidade? Eu posso ajudar com isso! contate-me para fazer de seus sonhos reais. 
 
 Muito prazer sou um desenvolvedor Front-end e UI/UX designer do Brasil. Você pode me chamar de Matheus e seja muito bem vindo ao <a href="https://myspacefolio.vercel.app"> My Space</a>.
 
