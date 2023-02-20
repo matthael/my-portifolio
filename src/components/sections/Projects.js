@@ -21,7 +21,7 @@ export const Projects = () => {
         "Book search app built to make it easy to search for books and find a place to buy.",
       imgUrl: Clio,
       UrlLive: "https://clio-books.vercel.app",
-      UrlRepository: "https://github.com/Biganao/clio",
+      UrlRepository: "https://github.com/Biganao/clio-books",
     },
     {
       title: "Vulcan",
