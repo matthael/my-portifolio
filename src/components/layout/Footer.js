@@ -44,7 +44,7 @@ export const Footer = () => {
             </div>
             <p>
               Copyright 2023. All Rights Reserved
-              <a href="https://github.com/Biganao" target="blank">
+              <a href="https://github.com/matthael" target="blank">
                 {"  "}
                 Matheus Dev
               </a>
