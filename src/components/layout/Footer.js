@@ -20,13 +20,13 @@ export const Footer = () => {
             <div>
               <ul className={styles.social_icons}>
                 <li>
-                  <a href="https://github.com/Biganao" target="blank">
+                  <a href="https://github.com/matthael" target="blank">
                     <FaGithub />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/matheuzinho_filipe/"
+                    href="https://www.instagram.com/_.matthael._/"
                     target="blank"
                   >
                     <FaInstagram />
