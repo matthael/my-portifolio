@@ -36,9 +36,17 @@
   position: relative;
 }
 
-.skill_slider .item img {
-  width: 50%;
+.skill_slider .item {
+  width: 100%;
   margin: 0 auto 15px auto;
+}
+
+.skill_slider .item h5{
+  margin: 25px auto 15px auto;
+}
+
+.skill_slider .item .icon{
+  font-size: 7em;
 }
 
 .bg_image {

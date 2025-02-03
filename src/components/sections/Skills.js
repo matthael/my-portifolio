@@ -3,12 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import meter1 from "../../img/meter1.svg";
-import meter2 from "../../img/meter2.svg";
-import meter3 from "../../img/meter3.svg";
-import colorSharp from "../../img/color-sharp.png";
-
 import styles from "./Skills.module.css";
+import { FaBootstrap, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiMongodb, SiJest, SiTailwindcss } from "react-icons/si";
 
 export const Skills = () => {
   const responsive = {
@@ -39,8 +36,8 @@ export const Skills = () => {
             <div className={styles.skill_bx}>
               <h2> Skills </h2>
               <p>
-                These graphics show an approximation of my knowledge and
-                technical skills in each of the following technologies
+                These are my knowledges and
+                technical skills in some tecnologies
               </p>
               <Carousel
                 responsive={responsive}
@@ -48,35 +45,34 @@ export const Skills = () => {
                 className={styles.skill_slider}
               >
                 <div className={styles.item}>
-                  <img src={meter1} alt="skills-img" />
-                  <h5> HTML </h5>
-                </div>
-                <div className={styles.item}>
-                  <img src={meter3} alt="skills-img" />
-                  <h5> CSS </h5>
-                </div>
-                <div className={styles.item}>
-                  <img src={meter2} alt="skills-img" />
-                  <h5> JS </h5>
-                </div>
-                <div className={styles.item}>
-                  <img src={meter2} alt="skills-img" />
+                  <FaReact className={styles.icon} color="#6ac4db" />
                   <h5> React </h5>
                 </div>
                 <div className={styles.item}>
-                  <img src={meter2} alt="skills-img" />
+                  <FaNodeJs className={styles.icon} color="#6ca264" />
                   <h5> Node </h5>
                 </div>
                 <div className={styles.item}>
-                  <img src={meter3} alt="skills-img" />
+                  <SiMongodb className={styles.icon} color="#42f265" />
+                  <h5> MongoDB </h5>
+                </div>
+                <div className={styles.item}>
+                  <FaBootstrap className={styles.icon} color="#8300f8" />
                   <h5> Bootstrap </h5>
+                </div>
+                <div className={styles.item}>
+                  <SiJest className={styles.icon} color="#943f5b" />
+                  <h5> Jest </h5>
+                </div>
+                <div className={styles.item}>
+                  <SiTailwindcss className={styles.icon} color="#56bcf7" />
+                  <h5> Tailwind </h5>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img src={colorSharp} alt={""} className={styles.bg_image} />
     </section>
   );
 };
