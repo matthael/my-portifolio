@@ -3,6 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import colorSharp from "../../img/color-sharp.png";
+
 import styles from "./Skills.module.css";
 import { FaBootstrap, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiMongodb, SiJest, SiTailwindcss } from "react-icons/si";
@@ -73,6 +75,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
+      <img src={colorSharp} alt={""} className={styles.bg_image} />
     </section>
   );
 };
